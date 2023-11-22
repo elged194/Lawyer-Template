@@ -1,0 +1,313 @@
+/*  */
+body {
+  background-color: #e8e9e1 !important;
+  overflow-x: hidden;
+}
+h6 {
+  color: #9b8f5d !important;
+}
+/* -------------------Stert NavBar-------------------- */
+.navbar-collapse {
+  justify-content: flex-end;
+}
+nav.bg-body-tertiary {
+  background-color: transparent !important;
+}
+nav .container-fluid {
+  padding: 0;
+}
+.navbar-brand {
+  color: #333 !important;
+}
+/* -------------------End NavBar-------------------- */
+/* -------------------Stert Header-------------------- */
+.header {
+  position: relative;
+}
+.header img {
+  width: 100%;
+}
+.header .text-header {
+  position: absolute;
+  top: 7px;
+  height: 100%;
+  background: #e8e9e152;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.header .text-header span {
+  color: #9b8f5d;
+}
+.header .text-header .btn {
+  background-color: #212e40;
+  color: #fff;
+  padding: 5px 10px;
+  width: 16%;
+}
+.header .text-header h1 {
+  font-size: 50px;
+}
+/* -------------------End Header-------------------- */
+/* -------------------Start About-------------------- */
+.About {
+  margin: 90px 0;
+}
+.About img {
+  width: 73%;
+}
+.About .text-About {
+  display: flex;
+  flex-direction: column;
+  height: 90%;
+  padding: 0 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: #52544c;
+}
+.About .row {
+  position: relative;
+}
+.About .about-img::before {
+  content: "";
+  background-color: black;
+  position: absolute;
+  height: 508px;
+  width: 1px;
+  left: 49%;
+  top: -28px;
+}
+.About .About-p {
+  text-align: center;
+}
+.About .About-p .btn {
+  background-color: #212e40;
+  color: #fff;
+  padding: 5px 30px;
+  margin-top: 10px;
+}
+/* -------------------End About-------------------- */
+/* -------------------Start Partnership-------------------- */
+.Partnership {
+  text-align: center;
+  margin: 50px 0;
+  color: #52544c;
+}
+.Partnership .row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+.Partnership .fa-solid {
+  font-size: 73px;
+  color: #52544c;
+  margin: 10px 0;
+}
+.Partnership .brd {
+  border-right: solid 1px #52544c;
+}
+/* -------------------End Partnership-------------------- */
+
+/* -------------------Start Lawyer-firm-------------------- */
+.Lawyer-firm {
+  margin: 70px 0;
+  padding: 50px 0;
+  background-color: #212e40;
+  position: relative;
+}
+.Lawyer-firm img {
+  width: 80%;
+  float: right;
+  height: 240px;
+}
+.Lawyer-firm .text-left {
+  position: absolute;
+  bottom: 4px;
+  color: #fff;
+  left: 27px;
+}
+.Lawyer-firm .text-right ul {
+  list-style: none;
+  padding: 0 15px;
+}
+.Lawyer-firm .text-right ul hr {
+  color: #fff;
+}
+.Lawyer-firm .text-right ul li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+}
+.Lawyer-firm .text-right ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+/* -------------------End Lawyer-firm-------------------- */
+/* -------------------Start Tem-------------------- */
+.tem {
+  margin: 50px 0;
+}
+.tem .text-tem {
+  text-align: center;
+  color: #52544c;
+}
+.tem .text-tem p {
+  width: 80%;
+  margin: auto;
+}
+.tem .card {
+  text-align: center;
+  background-color: transparent !important;
+  border: none;
+  color: #52544c;
+  width: 100% !important;
+}
+/* -------------------End Tem-------------------- */
+/* -------------------Start help-lawyer-------------------- */
+.help-lawyer {
+  background-color: #212e40;
+  color: #fff;
+  padding: 50px 0;
+  margin: 50px 0;
+}
+.help-lawyer .help-text {
+  width: 85%;
+  margin: auto;
+  text-align: center;
+}
+.help-lawyer .help-text p {
+  width: 85%;
+  margin: 25px auto;
+}
+.help-lawyer .help-text .btn {
+  padding: 5px 25px;
+  background-color: #9b8f5d;
+  color: #fff;
+  font-weight: bold;
+}
+/* -------------------End help-lawyer-------------------- */
+/* -------------------Start testimonials-------------------- */
+
+.testimonials {
+  margin: 50px 0;
+}
+.testimonials .row {
+  position: relative;
+}
+.testimonials .product {
+  text-align: center;
+}
+.testimonials .text-testimonials {
+  position: absolute;
+  top: 25%;
+  color: #52544c;
+}
+.testimonials .img-testimonials img {
+  width: 17%;
+  border-top: solid 1px;
+  border-left: solid;
+  padding: 10px;
+  border-radius: 50%;
+}
+.testimonials .img-testimonials {
+  position: relative;
+}
+.testimonials .img-testimonials .fa-solid {
+  position: absolute;
+  bottom: 1px;
+  left: 53%;
+  font-size: 30px;
+  background-color: #9b8f5d;
+  color: #fff;
+  padding: 6px 10px;
+  border-radius: 50px;
+}
+.testimonials .Reviewed {
+  display: flex;
+  justify-content: space-evenly;
+}
+.testimonials .Reviewed p {
+  margin: 0;
+}
+.testimonials .Reviewed .fa-solid {
+  color: #9b8f5d;
+}
+.testimonials img {
+  width: 100%;
+}
+.owl-carousel .owl-item img {
+  display: inline !important;
+  width: 17% !important;
+}
+.owl-nav {
+  font-size: 50px;
+  text-align: center;
+}
+.owl-nav button {
+  margin: 0px 30px;
+}
+
+/* -------------------End testimonials-------------------- */
+/* -------------------Strt the-last-news-------------------- */
+.the-last-news .img-news img {
+  width: 100%;
+}
+.the-last-news .text-news .btn {
+  background-color: #212e40;
+  color: #fff;
+  padding: 5px 20px;
+  width: 70%;
+  /* border-radius: 0;   */
+}
+.the-last-news .text-news {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-evenly;
+}
+.the-last-news .text-news hr {
+  height: 1px;
+  background-color: black;
+  opacity: inherit;
+  width: 85%;
+}
+.the-last-news .row {
+  padding: 10px 0;
+}
+/* -------------------End the-last-news-------------------- */
+/* -------------------Start footer-------------------- */
+footer {
+  background-color: #212e40;
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+}
+footer > hr {
+  width: 75%;
+  margin: 1rem auto;
+}
+footer .top-text {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  color: #e8e9e1;
+}
+footer .top-text .fa-solid {
+  font-size: 35px;
+  margin: 0 5px;
+}
+footer ul {
+  list-style: none;
+  text-align: start;
+}
+footer ul li a {
+  text-decoration: none;
+  color: #e8e9e1;
+}
+footer .fa-brands {
+  font-size: 25px;
+  padding: 0 5px;
+}
+/* -------------------End footer-------------------- */

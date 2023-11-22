@@ -1,0 +1,149 @@
+@media only screen and (max-width: 1440px) {
+  .About .about-img::before {
+    height: 500px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .About .about-img::before {
+    height: 425px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  /* header */
+  .header .text-header {
+    top: 0;
+    left: 0;
+    justify-content: flex-start;
+    padding: 20px;
+  }
+  /* About */
+  .About .about-img::before {
+    height: 329px;
+  }
+  /* Partnership */
+  .Partnership .brd {
+    border: none;
+  }
+  /* Lawyer-firm */
+  .Lawyer-firm {
+    padding: 10px 0;
+  }
+  .Lawyer-firm img {
+    height: 235px;
+    padding: 10px;
+  }
+  .Lawyer-firm .text-left {
+    top: 65px;
+  }
+  /*  */
+  .tem .row {
+    justify-content: center;
+  }
+  /*  */
+  .testimonials .img-testimonials .fa-solid {
+    left: 52%;
+    font-size: 20px;
+    padding: 5px 7px;
+  }
+  /*  */
+  .the-last-news .text-news hr {
+    margin: 0;
+  }
+  .the-last-news .text-news .btn {
+    font-size: 13px;
+  }
+  .the-last-news .text-news p {
+    font-size: 12px;
+  }
+  .the-last-news .text-news {
+    justify-content: space-between;
+  }
+  /*  */
+  footer .col-md-12 hr {
+    width: 95%;
+    margin: 1rem auto;
+  }
+}
+@media only screen and (max-width: 425px) {
+  /* header */
+  .header .text-header h1 {
+    font-size: 24px;
+  }
+  .header .text-header .btn {
+    width: 35%;
+    font-size: 12px;
+  }
+  .header .text-header {
+    left: 0;
+    top: 0;
+  }
+  /* header */
+
+  /* About */
+  .About .about-img::before {
+    position: relative;
+  }
+  .About img {
+    width: 100%;
+  }
+  .About .text-About {
+    height: 100%;
+    padding: 10px 2px;
+  }
+  .About .About-p {
+    margin-top: 5px !important;
+  }
+  /* About */
+
+  /* Partnership */
+  .Partnership .fa-solid {
+    font-size: 40px;
+  }
+  .Partnership .brd {
+    border: none;
+  }
+  /* Partnership */
+
+  /* Lawyer-firm */
+  .Lawyer-firm img {
+    width: 100%;
+    padding: 5px;
+    height: auto;
+  }
+  .Lawyer-firm .text-left {
+    left: 11px;
+    top: 17px;
+  }
+  .Lawyer-firm {
+    padding: 5px 0;
+  }
+  /* Lawyer-firm */
+
+  /* testimonials */
+  .owl-carousel .owl-item img {
+    width: 40% !important;
+  }
+  .testimonials .img-testimonials .fa-solid {
+    padding: 5px 6px;
+    bottom: 4px;
+    left: 57%;
+    font-size: 20px;
+  }
+  /* testimonials */
+
+  /* the-last-news */
+  .the-last-news .row .col-lg-6 {
+    padding: 10px;
+  }
+  .the-last-news .text-news hr {
+    margin: 0;
+  }
+  .the-last-news .text-news p {
+    font-size: 13px;
+  }
+  .the-last-news .text-news .btn {
+    font-size: 11px;
+  }
+  /* the-last-news */
+}
